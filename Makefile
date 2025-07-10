@@ -16,5 +16,8 @@ epub:
 pdf:
 	python3 src/parseBook.py -f pdf
 
+pdf-without-images:
+	python3 src/parseBook.py -f pdf --skip-image-generation
+
 tex:
 	python3 src/parseBook.py -f tex
