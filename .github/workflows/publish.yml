@@ -7,8 +7,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04
-    env:
-      DISPLAY: ':99.0'
     steps:
       - uses: actions/checkout@v2
       - name: Set tag release as environment variable
